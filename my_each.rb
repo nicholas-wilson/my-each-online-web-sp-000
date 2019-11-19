@@ -7,3 +7,9 @@ def my_each(array)
   end
   array
 end
+
+cats = ["Gohan", "Smokey"]
+
+my_each(cats) do |cat|
+  puts cat
+end
