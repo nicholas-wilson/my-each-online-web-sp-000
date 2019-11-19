@@ -14,3 +14,5 @@ my_each(cats) do |cat|
   puts "#{cat} will now be changed!"
   cat = cat.reverse
 end
+
+puts cats
